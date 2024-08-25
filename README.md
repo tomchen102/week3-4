@@ -2,6 +2,10 @@
 
 ![Version](https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000)
 
+> 第三週 第四週 作業
+
+### 🏠 [Homepage](https://tomchen102.github.io/week3-4/)
+
 ## 安裝
 
 首先，請確保你已經安裝了 Node.js。然後，在專案目錄下運行以下命令來安裝所有必要的依賴：
@@ -28,7 +32,7 @@ npm start
 在專案中，你可以使用 `@/` 作為路徑別名，來簡化引入檔案的路徑。這樣可以避免使用相對路徑，讓你的代碼更乾淨。例如：
 
 ```javascript
-import MyComponent from '@/components/MyComponent';
+import MyComponent from "@/components/MyComponent";
 ```
 
 `@` 別名在 `vite.config.js` 中配置，默認指向 `src` 目錄。
@@ -59,8 +63,8 @@ import MyComponent from '@/components/MyComponent';
     theme: {
       extend: {
         colors: {
-          primary: '#3490dc',
-          secondary: '#ffed4a',
+          primary: "#3490dc",
+          secondary: "#ffed4a",
         },
       },
     },
